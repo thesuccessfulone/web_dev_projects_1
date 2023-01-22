@@ -1,0 +1,72 @@
+body {
+  background-image: url("5-Fantastic-Coding-Games-For-Students-scaled.jpeg");
+  /* backgroung image reference: https://yetiacademy.com/wp-content/uploads/2020/09/5-Fantastic-Coding-Games-For-Students-scaled.jpeg; */
+  background-position: center center; 
+  background-size: 100% 100%;
+  font-family: "Comic Sans MS";
+  font-size: 125%;
+  color:white;
+  margin: 0;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.sleeve1 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sleeve2 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+fieldset {
+  border: none;
+  padding: 0.7rem 1rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 99%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 1.5em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
